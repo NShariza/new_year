@@ -60,10 +60,15 @@ body{
     top: -1px;
     right: 1px;
 }
-.sign img{
-    position: absolute;
-    left: 58%;
-    top: 64%;
+/*.sign img{*/
+/*    position: absolute;*/
+/*    left: 58%;*/
+/*    top: 64%;*/
+/*}*/
+.sign{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
 }
 .logo img{
     position: absolute;
@@ -110,16 +115,16 @@ body{
     }
     .sign p{
         font-size: 16px;
+        margin-left: 8%;
     }
     .sign img{
-        left: 68%;
-        top: 69%;
+        margin-top: -5%;
         width: 85px;
         height: 89px;
     }
     .logo img{
-        left: 40%;
-        top: 85%;
+        left: 39%;
+        top: 89%;
         width: 89.02px;
         height: 36px;
     }
